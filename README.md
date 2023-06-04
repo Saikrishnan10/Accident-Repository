@@ -1,12 +1,26 @@
 ## **Navigation System To Avoid Accident Prone Areas Using Machine Learning Techniques**
 
-The aim of the project is to develop a navigation system using machine learning that avoids accident-prone areas. The research data comprises of daily accident reports with location details acquired from the City of Chicago website, which is an open repository. By using classification models such as Logistic Regression, Decision Trees, and Random Forests, the severity of the accident can be determined. The optimal model determined is **Random Forest** which has an accuracy, precision, and recall, scores of **94%, 94% and 91%** respectively. Once the severity is determined, the parameters that have the greatest effect on severity will be identified. The risk score for each location will be determined based on those parameters, using **multiple linear regression**. Using the **K-Means clustering technique**, distinct areas or clusters will be identified based on the co-ordinates and the risk score of the location. The machine learning model’s outputs will be fed into the **open route service (ORS)**, and depending on the mode of transportation, the route map, instructions, and time required for each stage of the journey will be provided. The model developed in this research project can be implemented in real time to ensure people travel safely and minimize traffic accidents.
+The main objective of this project is to create an advanced navigation system that utilizes machine learning techniques to help users avoid accident-prone areas. The research data used for this project consists of daily accident reports obtained from the City of Chicago's website, which serves as an open repository of valuable information.
 
+To determine the severity of accidents, classification models such as Logistic Regression, Decision Trees, and Random Forests will be employed. Through extensive evaluation, the Random Forest model has been identified as the optimal choice, exhibiting remarkable performance metrics. It achieves an accuracy, precision, and recall score of 94%, 94%, and 91% respectively, enabling accurate prediction of accident severity.
+
+Once the severity of accidents is determined, the next step is to identify the parameters that have the most significant impact on accident severity. This analysis will provide valuable insights into the key factors contributing to accidents. Multiple linear regression will be used to assign a risk score to each location based on these influential parameters.
+
+The project also involves the application of K-Means clustering technique to identify distinct areas or clusters based on the geographical coordinates and risk scores of each location. This clustering process aids in the categorization and identification of regions with similar characteristics and risk levels, enhancing the accuracy of the navigation system.
+
+The machine learning model's outputs will be integrated with the open route service (ORS), an external service that offers routing and mapping functionalities. Depending on the user's chosen mode of transportation, the system will provide a route map, step-by-step instructions, and estimated travel time for each stage of the journey. This integration ensures that users can travel safely while minimizing the likelihood of encountering traffic accidents.
 
 ## **Extracting the data from the following files:**
+It is worth mentioning that the project extracts data from the following files available on the City of Chicago's website:
 
-Daily Accident Detail Report = https://data.cityofchicago.org/api/views/85ca-t3if/rows.csv
+Daily Accident Detail Report: Contains detailed information about daily accidents.
+[File Link](https://data.cityofchicago.org/api/views/85ca-t3if/rows.csv): Daily Accident Detail Report
 
-Details about the Vehicles involved in the Accident = https://data.cityofchicago.org/api/views/68nd-jvt3/rows.csv
+Vehicle Details: Provides specific details about the vehicles involved in the accidents.
 
-Details about the People involved in the Accident= https://data.cityofchicago.org/api/views/u6pd-qa9d/rows.csv
+[File Link](https://data.cityofchicago.org/api/views/68nd-jvt3/rows.csv): Vehicle Details
+People Details: Contains information about the individuals involved in the accidents.
+
+[File Link](https://data.cityofchicago.org/api/views/u6pd-qa9d/rows.csv): People Details
+
+By leveraging the insights gained from these datasets and the developed machine learning model, the navigation system can be implemented in real-time. This implementation aims to ensure that individuals can travel safely while minimizing the occurrence of traffic accidents.
