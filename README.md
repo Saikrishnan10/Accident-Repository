@@ -15,14 +15,14 @@ It is worth mentioning that the project extracts data from the following files a
 
 1) Daily Accident Detail Report: Contains detailed information about daily accidents.
 
-[File Link](https://data.cityofchicago.org/api/views/85ca-t3if/rows.csv): Daily Accident Detail Report
+Daily Accident Detail Report: [File Link](https://data.cityofchicago.org/api/views/85ca-t3if/rows.csv) 
 
 2) Vehicle Details: Provides specific details about the vehicles involved in the accidents.
 
-[File Link](https://data.cityofchicago.org/api/views/68nd-jvt3/rows.csv): Vehicle Details
+Vehicle Details: [File Link](https://data.cityofchicago.org/api/views/68nd-jvt3/rows.csv)
 
 3) People Details: Contains information about the individuals involved in the accidents.
 
-[File Link](https://data.cityofchicago.org/api/views/u6pd-qa9d/rows.csv): People Details
+People Details: [File Link](https://data.cityofchicago.org/api/views/u6pd-qa9d/rows.csv)
 
 By leveraging the insights gained from these datasets and the developed machine learning model, the navigation system can be implemented in real-time. This implementation aims to ensure that individuals can travel safely while minimizing the occurrence of traffic accidents.
